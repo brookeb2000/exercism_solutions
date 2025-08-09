@@ -1,2 +1,10 @@
 # exercism_solutions
-repo to hold some of my exercism solutions to practice with git
+some of my exercism solutions to practice with git
+## installation
+1. Clone the repo:
+   ''
+2. Open the folder in VS Code or editor of choice.
+## Usage
+
+## License
+This project is licensed under the MIT License.
