@@ -32,8 +32,10 @@ def decrement_items(inventory, items):
     :param items: list - list of items to decrement from the inventory.
     :return: dict - updated inventory with items decremented.
     """
-
-    pass
+    for key in items:
+        if inventory.get(key, 0) > 0:
+            inventory[key] = inventory.get(key, 0) - 1
+    return inventory
 
 
 def remove_item(inventory, item):
@@ -43,8 +45,8 @@ def remove_item(inventory, item):
     :param item: str - item to remove from the inventory.
     :return: dict - updated inventory with item removed. Current inventory if item does not match.
     """
-
-    pass
+    inventory.pop(item, 0)
+    return inventory
 
 
 def list_inventory(inventory):
@@ -53,6 +55,9 @@ def list_inventory(inventory):
     :param inventory: dict - an inventory dictionary.
     :return: list of tuples - list of key, value pairs from the inventory dictionary.
     """
-
-    pass
+    my_list = []
+    for key, value in inventory.items():
+        if inventory.get(key, 0) > 0:
+            my_list.append((key, value))
+    return my_list
 
