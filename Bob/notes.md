@@ -1,4 +1,4 @@
-# Inventory Management - Notes
+# Bob - Notes
 
 ## Approach
 used if statements and string methods to return different strings based on input

@@ -1,4 +1,4 @@
-# Inventory Management - Notes
+# Collatz Conjecture - Notes
 
 ## Approach
 used flow of control (while loops, if else statements) to modify data
