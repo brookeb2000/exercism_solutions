@@ -30,8 +30,7 @@ def update_recipes(ideas, recipe_updates):
     :param recipe_updates: iterable -  with updates for the ideas section.
     :return: dict - updated "recipe ideas" dict.
     """
-    for recipe_name, ingredients in recipe_updates:
-        ideas[recipe_name] = ingredients
+    ideas.update(recipe_updates)
     return ideas
 
 
