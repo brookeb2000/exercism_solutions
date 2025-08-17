@@ -17,7 +17,7 @@ def fix_list_of_wagons(each_wagons_id, missing_wagons):
     :return: list - list of wagons.
     """
     x, y, first, *rest = each_wagons_id
-    corrected_list = [first] + missing_wagons + rest + [x] + [y]
+    corrected_list = [first, *missing_wagons, *rest, x, y]
     return corrected_list
 
 
