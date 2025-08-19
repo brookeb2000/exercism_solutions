@@ -11,9 +11,9 @@ To learn Python and practice using git.
 - exercise_2/
      - ...
 - ...
-## installation
+## Installation
 1. Make sure python is installed (3.7+)
 1. Clone the repo:
    git clone https://github.com/brookeb2000/exercism_solutions.git
 3. Open the folder in VS Code or editor of choice.
-4. to run a program type "python [exercise_name.py]"
+4. to run a program type "python solution.py" (Note: some setups may need "py solution.py")
