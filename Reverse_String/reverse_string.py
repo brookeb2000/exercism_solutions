@@ -3,9 +3,4 @@ def reverse(text):
     :param text: string
     :return: string the reversed string
     """
-    if not isinstance(text, str):
-        raise TypeError("Input must be a string")
-    string = "" 
-    for char in reversed(text):
-        string += char
-    return string
+    return text[::-1]
