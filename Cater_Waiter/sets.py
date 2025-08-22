@@ -89,10 +89,7 @@ def compile_ingredients(dishes):
 
     This function should return a `set` of all ingredients from all listed dishes.
     """
-    master_set = set()
-    for item in dishes:
-        master_set = master_set.union(item)
-    return master_set    
+    return set.union(*dishes)    
 
 
 def separate_appetizers(dishes, appetizers):
