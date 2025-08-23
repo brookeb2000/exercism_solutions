@@ -29,9 +29,7 @@ class Alien:
         self.health -= 1
 
     def is_alive(self):
-        if self.health <= 0:
-            return False
-        return True
+        return self.health > 0
 
     def teleport(self, x_coord, y_coord):
         self.x_coordinate = x_coord
